@@ -1,0 +1,13 @@
+.\rvmdk\uart.o: Uart.c
+.\rvmdk\uart.o: uart.h
+.\rvmdk\uart.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\uart.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\uart.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\rvmdk\uart.o: main.h
+.\rvmdk\uart.o: ..\driverlib/gpio.h
+.\rvmdk\uart.o: ..\driverlib/rom.h
+.\rvmdk\uart.o: ..\driverlib/rom_map.h
+.\rvmdk\uart.o: ..\driverlib/sysctl.h
+.\rvmdk\uart.o: ..\driverlib/uart.h
+.\rvmdk\uart.o: ..\inc/hw_memmap.h
+.\rvmdk\uart.o: ..\tm4c123gh6pm.h

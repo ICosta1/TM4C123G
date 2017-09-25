@@ -1,0 +1,14 @@
+--cpu Cortex-M4.fp
+".\rvmdk\main.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\delay.o"
+".\rvmdk\ustdlib.o"
+".\rvmdk\timer.o"
+".\rvmdk\random.o"
+".\rvmdk\interface.o"
+".\rvmdk\uart.o"
+"..\driverlib\rvmdk\driverlib.lib"
+--library_type=microlib --strict --scatter "cc31000_starter.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\AutoSpacer.map" -o .\rvmdk\AutoSpacer.axf

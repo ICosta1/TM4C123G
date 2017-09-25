@@ -1,0 +1,21 @@
+--cpu Cortex-M4.fp
+".\rvmdk\main.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\uart.o"
+".\rvmdk\uartstdio.o"
+".\rvmdk\delay.o"
+".\rvmdk\ustdlib.o"
+".\rvmdk\shiftregister.o"
+".\rvmdk\timer.o"
+".\rvmdk\nixie.o"
+".\rvmdk\rtc.o"
+".\rvmdk\nixiecommands.o"
+".\rvmdk\commandline.o"
+".\rvmdk\random.o"
+".\rvmdk\interface.o"
+".\rvmdk\clock.o"
+"..\driverlib\rvmdk\driverlib.lib"
+--library_type=microlib --strict --scatter "cc31000_starter.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\Nixie_IN1.map" -o .\rvmdk\Nixie_IN1.axf
